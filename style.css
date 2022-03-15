@@ -1,0 +1,42 @@
+.bg{
+background-image: url(./images/background.jpg);
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+height: 100vh;
+}
+html{
+    font-size:100%;
+}
+.principal{
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    padding:10px;
+    font-size: 18px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+.border{
+    width: 60px;
+    border:1px solid black;
+}
+.bg1{
+    background-color: #3a3e64;
+    
+}
+.bg2{
+    background-color: #313454;
+}
